@@ -41,7 +41,7 @@ class SeekBarCompatDontCrash {
         marker.setOutlineProvider(new ViewOutlineProvider() {
             @Override
             public void getOutline(View view, Outline outline) {
-                outline.setConvexPath(markerDrawable.getPath());
+//                outline.setConvexPath(markerDrawable.getPath());
             }
         });
     }
